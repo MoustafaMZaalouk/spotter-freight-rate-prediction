@@ -1,0 +1,22 @@
+{
+  "tests_passed": true,
+  "test_log": "test_features_and_unseen (test_pipeline.PipelineTests) ... ok\ntest_filter_is_training_fitted (test_pipeline.PipelineTests) ... ok\ntest_metrics_hand_computed (test_pipeline.PipelineTests) ... ok\ntest_missing_values_supported (test_pipeline.PipelineTests) ... ok\ntest_schema_errors (test_pipeline.PipelineTests) ... ok\ntest_split_boundaries (test_pipeline.PipelineTests) ... ok\ntest_submission_order_and_ids (test_pipeline.PipelineTests) ... ok\ntest_target_round_trip (test_pipeline.PipelineTests) ... ok\ntest_unseen_category_predicts_finite (test_pipeline.PipelineTests) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.117s\n\nOK\n",
+  "scorer_passed": true,
+  "scorer_log": "Validated 12,000 final predictions.\nValidated 31 fixed December predictions.\nCreated chart: outputs/scorer_results/candidate_december.png\nFinal validation metrics are calculated by Spotter after submission.\n",
+  "scorer_sha256": "f73af4f34acf0c43cdd6e2cd6b2c0ec8b9da4420fd6fdcd69bd86e14d4868634",
+  "predictions_sha256": "65a7679dccca462e5dba8520e4aad8e9d2d5d26ab148571281d7a6463d502a99",
+  "december_sha256": "1ab0edfcbbbf4411adbb9d777b9a01f552538c82d6510f7f13c1eec6cbda5d1c",
+  "repeatability": {
+    "same_environment_exact_match": true,
+    "first_run_sha256": {
+      "outputs/validation_predictions.csv": "65a7679dccca462e5dba8520e4aad8e9d2d5d26ab148571281d7a6463d502a99",
+      "outputs/december_chart_inputs.csv": "1ab0edfcbbbf4411adbb9d777b9a01f552538c82d6510f7f13c1eec6cbda5d1c",
+      "outputs/metrics.json": "c252a55752bb50775249ccbedc074e0f583f492db7408bcff68ad700a42b9780"
+    },
+    "second_run_sha256": {
+      "outputs/validation_predictions.csv": "65a7679dccca462e5dba8520e4aad8e9d2d5d26ab148571281d7a6463d502a99",
+      "outputs/december_chart_inputs.csv": "1ab0edfcbbbf4411adbb9d777b9a01f552538c82d6510f7f13c1eec6cbda5d1c",
+      "outputs/metrics.json": "c252a55752bb50775249ccbedc074e0f583f492db7408bcff68ad700a42b9780"
+    }
+  }
+}
