@@ -1,0 +1,13 @@
+{
+  "same_environment_exact_match": true,
+  "first_run_sha256": {
+    "outputs/validation_predictions.csv": "65a7679dccca462e5dba8520e4aad8e9d2d5d26ab148571281d7a6463d502a99",
+    "outputs/december_chart_inputs.csv": "1ab0edfcbbbf4411adbb9d777b9a01f552538c82d6510f7f13c1eec6cbda5d1c",
+    "outputs/metrics.json": "c252a55752bb50775249ccbedc074e0f583f492db7408bcff68ad700a42b9780"
+  },
+  "second_run_sha256": {
+    "outputs/validation_predictions.csv": "65a7679dccca462e5dba8520e4aad8e9d2d5d26ab148571281d7a6463d502a99",
+    "outputs/december_chart_inputs.csv": "1ab0edfcbbbf4411adbb9d777b9a01f552538c82d6510f7f13c1eec6cbda5d1c",
+    "outputs/metrics.json": "c252a55752bb50775249ccbedc074e0f583f492db7408bcff68ad700a42b9780"
+  }
+}
