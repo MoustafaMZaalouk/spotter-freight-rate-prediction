@@ -2,6 +2,8 @@
 
 Predict `posted_rate` in USD for freight loads. The model uses the **Without market_index** LightGBM variant.
 
+**Input data is not included.** Full reproduction requires the original assessment files from an authorized source. See the [report PDF](reports/report.pdf) for results, assumptions and limits. Published predictions are assessment artifacts, not evidence of a production deployment.
+
 ## Results, all rows first
 
 Retrospective Sep 16-Oct 31 holdout: **MAE $87.24, MAPE 3.93%, median APE 1.08%**.
