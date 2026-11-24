@@ -1,5 +1,9 @@
 # Freight rate prediction
 
+![Status: assessment demo](https://img.shields.io/badge/status-assessment%20demo-64748B?style=flat-square)
+
+*No hosted CI is configured for this assessment repository; source data is excluded.*
+
 Predict `posted_rate` in USD for freight loads. The model uses the **Without market_index** LightGBM variant.
 
 **Input data is not included.** Full reproduction requires the original assessment files from an authorized source. See the [report PDF](reports/report.pdf) for results, assumptions and limits. Published predictions are assessment artifacts, not evidence of a production deployment.
